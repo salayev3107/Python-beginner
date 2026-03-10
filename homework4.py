@@ -14,8 +14,8 @@ avto1 = Avto('malibu','qora','avtomat',20000)
 avto2 = Avto('spark','yashil','elektro',10000)
 avto3 = Avto('damas','oq','mexanika',5000)
 avto1.update_km(5000)
-# print(avto1.kilometr)
-# print(Avto.get_info(avto1)) 
+print(avto1.kilometr)
+print(Avto.get_info(avto1)) 
 
 
 class Avtosalon:
@@ -42,3 +42,4 @@ print(dir(Avto))
 print(dir(avto1.__dict__.keys))
 print(dir(str))
 print(dir(int))
+
